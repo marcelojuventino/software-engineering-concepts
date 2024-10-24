@@ -5,6 +5,7 @@
 - [Idempotency](Idempotency.md)
 - [Fail Tolerance](Fail-Tolerance.md)
 - [Scalability](Scalability.md)
+- [Transactions](Transactions.md)
 - System Design
   - Architectural Patterns
     - [CQRS](CQRS.md) - Command Query Responsibility Segregation
