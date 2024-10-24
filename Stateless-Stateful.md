@@ -1,4 +1,4 @@
-### Stateless vs. Stateful
+## Stateless vs. Stateful
 
 In the context of software systems, particularly distributed systems, the terms "stateless" and "stateful" refer to how a component or service handles and stores data.
 
