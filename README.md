@@ -11,6 +11,7 @@
     - [CQRS](CQRS.md) - Command Query Responsibility Segregation
     - [Publish-Subscribe](Publish-Subscribe.md)
       - [Topics-Queues](Topics-Queues.md)
+      - [Orchestration and Choreography](Orchestration-Choreography.md)
 
 ## Big O Notation
 
