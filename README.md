@@ -15,6 +15,7 @@
       - [Topics-Queues](Topics-Queues.md)
       - [Orchestration and Choreography](Orchestration-Choreography.md)
     - [Event Sourcing](Event-Sourcing.md)
+      - [Real-World Use Case with Java](Event-Sourcing-Use-Case.md)
 
 ## Big O Notation
 
