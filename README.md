@@ -4,6 +4,7 @@
 - [RESTful Web Services](#restful-web-services)
 - [Idempotency](Idempotency.md)
 - [Fail Tolerance](Fail-Tolerance.md)
+- [Scalability](Scalability.md)
 - System Design
   - Architectural Patterns
     - [CQRS](CQRS.md) - Command Query Responsibility Segregation
