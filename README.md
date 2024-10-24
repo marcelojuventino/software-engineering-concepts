@@ -2,6 +2,9 @@
 
 - [Big O Notation](#big-o-notation)
 - [RESTful Web Services](#restful-web-services)
+- System Design
+  - Architectural Patterns
+    - [CQRS](CQRS.md) - Command Query Responsibility Segregation
 
 ## Big O Notation
 
