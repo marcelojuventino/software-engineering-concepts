@@ -14,7 +14,7 @@ Idempotency is crucial in distributed systems, especially when dealing with netw
 
 Several architectural patterns are closely related to idempotency:
 
-1. **CQRS (Command Query Responsibility Segregation):**
+1. **[CQRS](CQRS.md) (Command Query Responsibility Segregation):**
    * Separates read and write operations.
    * Commands can be made idempotent by using unique identifiers and tracking their execution status.
 
