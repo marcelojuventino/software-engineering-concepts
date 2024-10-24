@@ -75,10 +75,10 @@ public class OrderService {
 
 In this example:
 
-1. The `@Version` annotation on the `Order` entity is used to track its version and indicates that the field should be used for optimistic locking. Spring Data JPA will automatically check the version before updating the entity and throw an OptimisticLockException if there is a conflict.
-2. The `update` method checks if the provided version matches the current version. If not, an `OptimisticLockException` is thrown.
-3. The `OrderService` updates the order and saves it to the repository.
-4. The `@OptimisticLocking` annotation can be applied at the class level to enable optimistic locking for all entities within the class.
+   * The `@Version` annotation on the `Order` entity is used to track its version and indicates that the field should be used for optimistic locking. Spring Data JPA will automatically check the version before updating the entity and throw an OptimisticLockException if there is a conflict.
+   * The `update` method checks if the provided version matches the current version. If not, an `OptimisticLockException` is thrown.
+   * The `OrderService` updates the order and saves it to the repository.
+   * The `@OptimisticLocking` annotation can be applied at the class level to enable optimistic locking for all entities within the class.
 
 5. **Pessimistic Concurrency Control (PCC):**
    * Locks resources to prevent concurrent access.
@@ -108,8 +108,8 @@ public class OrderService {
 
 In this example:
 
-1. By using the `@Transactional` annotation on a method, Spring will automatically create a transactional context that ensures that all operations within the method are executed as a single unit. This effectively provides pessimistic concurrency control.
-2. The `@Transactional` annotation on the `updateOrder` method ensures that the entire operation is executed within a transaction, providing pessimistic concurrency control. The `@Version` annotation on the `Order` entity enables optimistic locking, which can be used in combination with pessimistic locking if necessary.
+   * By using the `@Transactional` annotation on a method, Spring will automatically create a transactional context that ensures that all operations within the method are executed as a single unit. This effectively provides pessimistic concurrency control.
+   * The `@Transactional` annotation on the `updateOrder` method ensures that the entire operation is executed within a transaction, providing pessimistic concurrency control. The `@Version` annotation on the `Order` entity enables optimistic locking, which can be used in combination with pessimistic locking if necessary.
 
 **Key Points:**
 
