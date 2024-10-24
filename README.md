@@ -9,6 +9,8 @@
 - System Design
   - Architectural Patterns
     - [CQRS](CQRS.md) - Command Query Responsibility Segregation
+    - [Publish-Subscribe](Publish-Subscribe.md)
+      - [Topics-Queues](Topics-Queues.md)
 
 ## Big O Notation
 
