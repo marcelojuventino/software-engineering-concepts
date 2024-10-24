@@ -14,6 +14,7 @@
     - [Publish-Subscribe](Publish-Subscribe.md)
       - [Topics-Queues](Topics-Queues.md)
       - [Orchestration and Choreography](Orchestration-Choreography.md)
+    - [Event Sourcing](Event-Sourcing.md)
 
 ## Big O Notation
 
