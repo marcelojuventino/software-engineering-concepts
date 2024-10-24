@@ -6,6 +6,7 @@
 - [Fail Tolerance](Fail-Tolerance.md)
 - [Scalability](Scalability.md)
 - [Transactions](Transactions.md)
+- [Stateless & Stateful](Stateless-Stateful.md)
 - System Design
   - Architectural Patterns
     - [CQRS](CQRS.md) - Command Query Responsibility Segregation
